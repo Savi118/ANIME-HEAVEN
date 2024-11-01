@@ -26,7 +26,6 @@ body::before {
   z-index: -1;
 }
 
-@media (max-width: 768px) {
 header {
   display: flex;
   flex-direction: row;
@@ -101,9 +100,6 @@ img {
   position: relative;
   z-index: 1;
 }
-}
-
-@media (max-width: 480px) {
 
 .para-1{
   font-size: 3em;
@@ -140,5 +136,4 @@ img {
   text-align: center;
   margin-top: 270px;
   font-size: 12px;
-}
 }
