@@ -3,4 +3,77 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: #356ba0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-height: fit-content;
+  min-width: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-evenly;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+img {
+  margin-left: 22px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+}
+
+.logo-name {
+  margin-left: 5px;
+  margin-top: 18px;
+  font-size: 15px;
+  text-decoration: underline;
+  letter-spacing: .5px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  gap: 88px;
+  margin: 12px;
+  margin-left: 358px;
+  text-transform: uppercase;
+}
+
+.navigation-text {
+  text-decoration: none;
+  color: #faf3d0;
+  font-size: 26px;
+  font-family: dancing family;
+  border-bottom:2px solid #f5f5dc;
+}
+
+#nav-txt-1:hover {
+  border-bottom: 2px solid yellow;
+  color: yellow;
+}
+
+#nav-txt-2:hover {
+  border-bottom: 2px solid rgb(143, 92, 253);
+  color: rgb(143, 92, 253);
+}
+
+#nav-txt-3:hover {
+  border-bottom: 2px solid rgb(146, 238, 227);
+  color: rgb(146, 238, 227);
+}
+
+#nav-txt-4:hover {
+  border-bottom: 2px solid rgb(214, 90, 252);
+  color: rgb(214, 90, 252);
+}
 
